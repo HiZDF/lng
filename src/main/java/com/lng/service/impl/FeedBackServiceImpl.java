@@ -1,7 +1,6 @@
 package com.lng.service.impl;
 
 import com.lng.dao.FeedBackDao;
-import com.lng.pojo.DriverZp;
 import com.lng.pojo.FeedBack;
 import com.lng.service.FeedBackService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,7 +15,6 @@ import javax.persistence.criteria.CriteriaBuilder;
 import javax.persistence.criteria.CriteriaQuery;
 import javax.persistence.criteria.Predicate;
 import javax.persistence.criteria.Root;
-import java.util.List;
 import java.util.Optional;
 
 @Service
